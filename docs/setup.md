@@ -41,6 +41,8 @@ sudo nano /etc/netplan/99_config.yaml
 ```
 ip a
 ```
+<img width="1365" height="729" alt="4" src="https://github.com/user-attachments/assets/6aee7239-f72f-49df-91ec-6c3505240c79" />
+
 + Look for interface name (usually enp1s0, enp0s3, etc.)
 + Add this configuration (replace enp1s0 with your interface name):
 ``` yaml
