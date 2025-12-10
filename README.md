@@ -4,7 +4,7 @@ Welcome to OPS445 Assignment 2!
 
 In this assignment, you will install and configure a LAMP stack (Linux, Apache, MariaDB, PHP) inside a new Ubuntu VM. You will then use this platform to host WordPress, configure firewall rules with nftables, and document your work through screenshots and blog posts.
 
-📚 Assignment Objectives:
+# 📚 Assignment Objectives:
 + Create a new Ubuntu VM (<username>-ubuntu) and set it to boot into CLI (multi-user.target)
 + Configure a static IP and hostname resolution
 + Install and configure the following packages:
@@ -19,7 +19,7 @@ In this assignment, you will install and configure a LAMP stack (Linux, Apache, 
 + Access WordPress via browser and complete the setup wizard
 + Write two professional blog posts on your new WordPress site
 
-📂 Assignment Files & Deliverables:
+# 📂 Assignment Files & Deliverables:
 You will create and work with the following during this assignment:
 + /etc/netplan/99_config.yaml – Static IP configuration
 + /etc/hosts – Local hostname resolution
@@ -32,7 +32,7 @@ You will create and work with the following during this assignment:
 + a2output.txt – Output from the assignment check script
 + Screenshots showing proof of each rubric item
 
-🧩 Tips & Tricks:
+# 🧩 Tips & Tricks:
 + Use systemctl isolate multi-user.target to switch to CLI mode without rebooting.
 + Always test network connectivity with ping before proceeding.
 + Use grep http /etc/services and grep ssh /etc/services to confirm required ports for firewall rules.
@@ -40,10 +40,10 @@ You will create and work with the following during this assignment:
 + Use lynx inside the VM and Firefox on the host to test Apache and WordPress connectivity.
 + Keep your blog posts professional—use headings, lists, and proper grammar.
 
-📖 References:
+# 📖 References:
 + Assignment 2 Check Script Repository (https://github.com/jmcarman/a2-check)
 
-✅ Rubric (20 Marks):
+# ✅ Rubric (20 Marks):
 | Task | Marks |
 |------|-------|
 | System set to boot in CLI | 1 |
