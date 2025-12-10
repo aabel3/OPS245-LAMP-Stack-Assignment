@@ -62,13 +62,11 @@ network:
 <img width="1365" height="729" alt="3" src="https://github.com/user-attachments/assets/4b5424e8-af45-4156-925f-ea240254583c" />
 
 + Apply the configuration:
-bash
 ```
 sudo netplan apply
 ```
 
 + Verify the IP:
-bash
 ```
 ip address
 ```
@@ -76,31 +74,26 @@ ip address
 
 # Step 4: Configure Hostname Resolution
 + Edit /etc/hosts on both your Ubuntu VM and host machine:
-bash
 ```
 sudo vim /etc/hosts
 ```
 + Add this line:
-bash
 ```
 192.168.245.5   <username>-ubuntu
 ```
 <img width="1365" height="727" alt="5" src="https://github.com/user-attachments/assets/78428107-5553-4ad5-ad78-ece3338b0e32" />
 
 + Test connectivity:
-bash
 ```
 ping 192.168.245.1
 ```
 
 + Test internet
-bash
 ```
 ping google.com
 ```
 
 + Test hostname resolution
-bash
 ```
 ping <username>-ubuntu
 ```
