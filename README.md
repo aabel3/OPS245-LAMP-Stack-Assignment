@@ -5,7 +5,7 @@ Welcome to OPS445 Assignment 2!
 In this assignment, you will install and configure a LAMP stack (Linux, Apache, MariaDB, PHP) inside a new Ubuntu VM. You will then use this platform to host WordPress, configure firewall rules with nftables, and document your work through screenshots and blog posts.
 
 # 📚 Assignment Objectives:
-+ Create a new Ubuntu VM (<username>-ubuntu) and set it to boot into CLI (multi-user.target)
++ Create a new Ubuntu VM (username-ubuntu) and set it to boot into CLI (multi-user.target)
 + Configure a static IP and hostname resolution
 + Install and configure the following packages:
   - apache2 (web server)
