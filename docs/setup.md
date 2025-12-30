@@ -2,7 +2,7 @@
 
 # Step 1: Create New Ubuntu VM
 VM Specifications:
-+ VM Name: <username>-ubuntu (replace with your Seneca username)
++ VM Name: username-ubuntu (replace with your Seneca username)
 + Hostname: Same as VM name
 + Installation: Full GUI (not minimal)
 <img width="1365" height="726" alt="1" src="https://github.com/user-attachments/assets/5c787bfd-b70f-426c-863a-c2f29abf34f2" />
